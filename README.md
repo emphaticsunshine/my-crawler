@@ -1,7 +1,7 @@
 # Install
 * npm install
 
-Run:
+## Run:
 ```
     node ./lib/ https://www.apple.com reimagined
 ```
