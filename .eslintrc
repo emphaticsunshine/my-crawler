@@ -1,0 +1,37 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+        "standard",
+        "eslint:recommended",
+        "airbnb"
+    ],
+    "plugins": [
+        "babel",
+        "react",
+        "promise"
+    ],
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "indent": [
+            2, 4, {
+                "SwitchCase": 1
+            }
+        ],
+        "max-len": [
+            "error", 120, {
+                "ignoreComments": true,
+                "ignoreTrailingComments": true,
+                "ignoreStrings": true,
+                "ignoreUrls": true
+            }
+        ],
+        "max-statements-per-line": [
+            2, {
+                "max": 1
+            }
+        ]
+    }
+}
